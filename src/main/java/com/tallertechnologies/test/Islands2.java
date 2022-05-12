@@ -77,7 +77,6 @@ public class Islands2 {
         Integer area = 0;
 
         // iterate over the set of islands
-        Stream yy = Stream.of(grid);
         for (int x = 0; x < grid.length; x++) {
             for (int y = 0; y < grid[x].length; y++) {
                 if (grid[x][y] == 1) {
