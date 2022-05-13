@@ -83,7 +83,7 @@ public class Islands2 {
     /**
      * this method returns the maximum area of an island in grid
      * this method needs to be enhanced, since it only uses 2 threads and does not allow configuring more,
-     * but ideally it splits the grid in 2 and calculates the area of each island.
+     * but ideally it splits the grid in many parts and calculates the area of each island in different threads
      * for those islands that were cut because of the split, then it merges the borders of each array
      *
      * @param  grid   a set of islands
